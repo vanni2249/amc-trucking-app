@@ -29,12 +29,12 @@
                         </li>
                         <li>
                             <b>
-                                Deduction
+                                {{ $insurance->sum_deductions() }}
                             </b>
                         </li>
                         <li>
                             <b>
-                                Balance
+                                {{ $insurance->balance_company() }}
                             </b>
                         </li>
                     </ul>
