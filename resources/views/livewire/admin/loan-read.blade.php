@@ -24,12 +24,12 @@
             <li>
                 <small>Deduction</small>
                 <br>
-                <b>0.00</b>
+                <b>{{ $loan->acumulated() }}</b>
             </li>
             <li>
                 <small>Balance</small>
                 <br>
-                <b>0.00</b>
+                <b>{{ $loan->balance() }}</b>
             </li>
         </ul>
         <ul class="space-y-2">
